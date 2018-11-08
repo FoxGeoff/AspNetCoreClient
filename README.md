@@ -33,3 +33,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * Run: ```npm install angular-in-memory-web-api --save```
 * Run: ```ng g service shared/InMemoryData ```
 * Run: ```ng g interface interface/blog ```
+* Code: in-memory-data.sevice
