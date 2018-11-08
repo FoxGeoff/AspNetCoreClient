@@ -39,4 +39,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * how-to setup a message service
 * Run ```ng g service shared/message --dry-run ```
 * Code service
+
+## Check: Add blog.service
+* Run ```ng g service shared/blog --dry-run ```
  
