@@ -42,4 +42,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Check: Add blog.service
 * Run ```ng g service shared/blog --dry-run ```
+* Code: service
+
+## Check: Add Blogs Component
+* Run: ```ng g c blogs --dry-run ```
+* Add to app component <app-blog><app-blog>
+* Code: html
+
  
