@@ -1,3 +1,10 @@
-<p>
-  blogs works!
-</p>
+<h2>My Blogs</h2>
+
+<ul class="heroes">
+  <li *ngFor="let blog of blogs">
+    <!-- <a routerLink="/detail/{{hero.id}}"> -->
+      <span class="badge">{{blog.BlogId}}</span> {{blog.Url}}
+    <!-- </a> -->
+    <button class="delete" title="delete blog">x</button>
+  </li>
+</ul>
