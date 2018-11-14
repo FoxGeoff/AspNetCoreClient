@@ -48,5 +48,22 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * Run: ```ng g c blogs --dry-run ```
 * Add to app component <app-blog><app-blog>
 * Code: html
+* Code: blogs component
+* Add to app.module:
+```
+ imports: [
+    BrowserModule,
+    AppRoutingModule,
+    HttpClientModule,
+    
+    // The HttpClientInMemoryWebApiModule module intercepts HTTP requests
+    // and returns simulated server responses.
+    // Remove it when a real server is ready to receive requests.
+    HttpClientInMemoryWebApiModule.forRoot(
+        InMemoryDataService, { dataEncapsulation: false }
+ )
+],
+
+```
 
  
